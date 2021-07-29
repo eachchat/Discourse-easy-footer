@@ -69,9 +69,10 @@
       }
     }
     .small-link {
-      color: var(--secondary-high);
-      margin: 0 0.25em;
+      // color: var(--secondary-high);
       font-size: $font-down-2;
+      color: white;
+      margin: 0 0.25em;
     }
   }
   .footer-links {
@@ -81,7 +82,8 @@
     font-weight: bold;
   }
   .footer-section-link-wrapper a {
-    color: var(--secondary-high);
+    // color: var(--secondary-high);
+    color: white;
   }
   .list {
     margin: 1em;
