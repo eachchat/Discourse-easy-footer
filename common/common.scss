@@ -35,6 +35,10 @@
       }
       li {
         margin: 0.5em 0;
+        border-right: 1px solid #a1a8b0;
+      }
+      li:last-child {
+        margin: 0.5em 0;
       }
     }
   }
