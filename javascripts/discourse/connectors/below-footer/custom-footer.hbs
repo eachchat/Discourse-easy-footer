@@ -19,7 +19,7 @@
               <ul>
                 {{#each section.childLinks as |link|}}
                   <li class="footer-section-link-wrapper {{link.className}}">
-                    <a class="footer-section-link" title="{{link.title}}" href="{{link.href}}" target="{{link.target}}">
+                    <a class="footer-section-link" title="{{link.title}}" href="{{link.href}}" target="{{link.target}}" style="color: white;">
                       {{link.text}}
                     </a>
                   </li>
@@ -32,7 +32,9 @@
       <div class="third-box">
         <div class="footer-links">
           {{#each smallLinks as |link|}}
-            <a class="small-link {{link.className}}" title="{{link.title}}" target="{{link.target}}" href="{{link.href}}">{{link.text}}</a>
+            <a class="small-link {{link.className}}" title="{{link.title}}" target="{{link.target}}" href="{{link.href}}" style="color: white;">
+              {{link.text}}
+            </a>
           {{/each}}
         </div>
         <div class="social">
