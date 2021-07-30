@@ -28,6 +28,9 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: flex-end;
+      .list:not(:last-child) {
+        border-right: 1px solid #a1a8b0;
+      }
       ul {
         list-style: none;
         margin: 0;
@@ -35,11 +38,11 @@
       }
       li {
         margin: 0.5em 0;
-        border-right: 1px solid #a1a8b0;
+        // border-right: 1px solid #a1a8b0;
       }
-      .list li:last-child {
-        margin: 0.5em 0;
-      }
+      // .list li:last-child {
+      //   margin: 0.5em 0;
+      // }
     }
   }
   .third-box {
