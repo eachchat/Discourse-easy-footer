@@ -33,13 +33,13 @@
         margin: 0;
         min-width: 80px;
       }
-      li:not(:last-child) {
+      li {
         margin: 0.5em 0;
         border-right: 1px solid #a1a8b0;
       }
-      // li:last-child {
-      //   margin: 0.5em 0;
-      // }
+      .list li:last-child {
+        margin: 0.5em 0;
+      }
     }
   }
   .third-box {
