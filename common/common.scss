@@ -73,6 +73,7 @@
     // flex: 1;
     border-right: 1px solid #A1A8B0;
     padding-right: 18px;
+    margin-left: -3px;
   }
   .list span {
     font-weight: bold;
@@ -81,7 +82,7 @@
     color: white;
   }
   .list {
-    margin: 18px;
+    margin: 18px 18px 18px 0;
     margin-top: 0;
   }
   .d-icon {
