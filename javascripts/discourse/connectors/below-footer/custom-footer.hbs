@@ -32,7 +32,8 @@
       <div class="third-box">
         <div class="footer-links">
           {{#each smallLinks as |link|}}
-            <a class="small-link {{link.className}}" title="{{link.title}}" target="{{link.target}}" href="{{link.href}}" style="color: white;">
+            <a class="small-link {{link.className}}" title="{{link.title}}" target="{{link.target}}" 
+               href="javascript:void(0)" style="color: #A1A8B0;">
               {{link.text}}
             </a>
           {{/each}}
@@ -41,7 +42,7 @@
           {{!-- {{#each socialLinks as |link|}}
             <a class="social-link {{link.className}}" title="{{link.title}}" target="{{link.target}}" href="{{link.href}}">{{d-icon link.icon}}</a>
           {{/each}} --}}
-          <a class="social-link" href="#" style="color: white;">京ICP备 20031520号-1</a>
+          <a class="social-link" href="#" style="color: #A1A8B0;">京ICP备 20031520号-1</a>
         </div>
       </div>
     </div>
