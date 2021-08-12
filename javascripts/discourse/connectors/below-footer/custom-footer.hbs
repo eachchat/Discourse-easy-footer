@@ -12,11 +12,8 @@
       <div class="second-box">
         <div class="links">
           {{#each linkSections as |section|}}
-            <div class="list">
-              {{!-- <span class="{{section.className}}" title="{{section.title}}">
-                {{section.text}}
-              </span> --}}
-              <ul>
+            {{!-- <div class="list"> --}}
+              <ul class="list">
                 {{#each section.childLinks as |link|}}
                   <li class="footer-section-link-wrapper {{link.className}}">
                     <a class="footer-section-link" title="{{link.title}}" href="{{link.href}}" target="{{link.target}}" style="color: white;">
@@ -25,7 +22,7 @@
                   </li>
                 {{/each}}
               </ul>
-            </div>
+            {{!-- </div> --}}
           {{/each}}
         </div>
       </div>
