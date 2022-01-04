@@ -25,7 +25,6 @@
     .links {
       display: flex;
       flex-wrap: wrap;
-      white-space: pre;
       justify-content: flex-end;
       ul {
         list-style: none;
@@ -52,9 +51,8 @@
       flex-wrap: wrap;
       align-items: center;
       justify-content: flex-end;
-      white-space: pre;
       .social-link {
-        margin: 20px 18px 20px 0;
+        margin: 20px 18px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -74,7 +72,9 @@
     }
   }
   .footer-links {
+    // flex: 1;
     border-right: 1px solid #A1A8B0;
+    padding-right: 18px;
     margin-left: -3px;
   }
   .list span {
